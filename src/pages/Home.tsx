@@ -43,7 +43,7 @@ export default function Home() {
               <p className="text-sm uppercase tracking-[0.2em] text-gold">Colección</p>
               <h3 className="mt-2 text-2xl font-serif">Uniformes de la independencia</h3>
               <p className="mt-3 text-sm leading-7 text-gray-700 dark:text-gray-200">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                La independencia americana estuvo definida por combates decisivos como Ayacucho, Boyacá, Maipú y Chacabuco, donde los ejércitos patriotas cambiaron el destino político de los virreinatos hispánicos.
               </p>
             </div>
           </div>
