@@ -26,22 +26,22 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="mx-auto max-w-6xl px-4 pb-16 pt-24">
+      <main className="mx-auto max-w-6xl px-3 pb-16 pt-24 sm:px-4">
         <section className="grid items-center gap-8 md:grid-cols-2">
           <div>
-            <h1 className="text-5xl font-serif text-primary">{t('home.title')}</h1>
-            <p className="mt-4 text-lg">{t('home.subtitle')}</p>
-            <button className="mt-6 rounded-md bg-gold px-5 py-3 text-white">{t('home.button')}</button>
+            <h1 className="text-4xl font-serif text-primary sm:text-5xl">{t('home.title')}</h1>
+            <p className="mt-4 text-base sm:text-lg">{t('home.subtitle')}</p>
+            <button className="mt-6 rounded-md bg-gold px-5 py-3 text-sm font-medium text-white sm:text-base">{t('home.button')}</button>
           </div>
           <div className="overflow-hidden rounded-2xl bg-gray-100 shadow-lg dark:bg-gray-800">
-            <img src="/images/uniformes/1.jpeg" alt="Uniforme histórico" className="h-80 w-full object-contain p-2" />
+            <img src="/images/uniformes/1.jpeg" alt="Uniforme histórico" className="h-64 w-full object-contain p-2 sm:h-80" />
           </div>
         </section>
 
         <section className="mt-12">
           <h2 className="mb-4 text-2xl font-semibold">{t('home.featured')}</h2>
-          <div className="grid gap-6 rounded-2xl bg-white/70 p-6 shadow-sm dark:bg-white/5 md:grid-cols-[1.3fr_0.7fr]">
-            <img src="/images/uniformes/2.jpeg" alt="Artículo destacado" className="h-60 w-full rounded-xl bg-gray-100 object-contain p-2 dark:bg-gray-800" />
+          <div className="grid gap-6 rounded-2xl bg-white/70 p-4 shadow-sm dark:bg-white/5 sm:p-6 lg:grid-cols-[1.3fr_0.7fr]">
+            <img src="/images/uniformes/2.jpeg" alt="Artículo destacado" className="h-56 w-full rounded-xl bg-gray-100 object-contain p-2 dark:bg-gray-800 sm:h-60" />
             <div>
               <p className="text-sm uppercase tracking-[0.2em] text-gold">{t('home.collection')}</p>
               <h3 className="mt-2 text-2xl font-serif">{t('home.articleTitle')}</h3>
@@ -52,7 +52,7 @@ export default function Home() {
 
         <section className="mt-12">
           <h2 className="mb-4 text-2xl font-semibold">{t('home.sectionTitle')}</h2>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {featuredUniforms.map((item) => (
               <article
                 key={item.titleKey}
