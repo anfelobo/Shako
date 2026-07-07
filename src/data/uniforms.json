@@ -1,0 +1,21 @@
+[
+  {
+    "id": "u-001",
+    "nombre": "Casaca de Granadero",
+    "pais": "Argentina",
+    "año": 1810,
+    "ejercito": "Ejército Patriota",
+    "unidad": "Granaderos",
+    "conflicto": "Guerra de Independencia",
+    "descripcion": "Casaca de lana azul con charreteras doradas.",
+    "historia": "Usada por los granaderos en las campañas iniciales.",
+    "colores": ["azul", "dorado"],
+    "armamento": ["mosquete", "bayoneta"],
+    "sombrero": "bicorne",
+    "imagenPrincipal": "/assets/images/granadero.jpg",
+    "galeria": ["/assets/images/granadero-1.jpg", "/assets/images/granadero-2.jpg"],
+    "bibliografia": ["Fuente 1", "Fuente 2"],
+    "personajesRelacionados": ["p-001"],
+    "batallasRelacionadas": ["b-001"]
+  }
+]
