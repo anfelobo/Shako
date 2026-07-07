@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "uniforms": "Uniformes",
+    "people": "Personajes",
+    "battles": "Batallas",
+    "countries": "Países",
+    "timeline": "Cronología",
+    "library": "Biblioteca",
+    "search": "Buscar"
+  },
+  "home": {
+    "title": "América Uniformada",
+    "subtitle": "Enciclopedia Digital de Uniformología Militar Americana",
+    "button": "Explorar colección",
+    "featured": "Artículo destacado",
+    "sectionTitle": "Uniformes destacados",
+    "collection": "Colección",
+    "articleTitle": "Uniformes de la independencia",
+    "articleText": "Las guerras de independencia en América Latina estuvieron definidas por batallas decisivas como Ayacucho, Boyacá, Maipú y Chacabuco, donde los ejércitos patriotas transformaron la geografía política del continente.",
+    "featuredUniforms": {
+      "granadero": {
+        "title": "Casaca de granadero",
+        "description": "Una pieza emblemática de la élite militar que combinaba disciplina, prestigio y presencia visual en el campo de batalla."
+      },
+      "campaign": {
+        "title": "Uniforme de campaña",
+        "description": "Diseñado para la movilidad y la vida en campaña, con tejidos funcionales y un diseño más austero."
+      },
+      "officer": {
+        "title": "Vestimenta de oficial",
+        "description": "La indumentaria de mando reflejaba jerarquía, autoridad y las influencias europeas de los cuerpos patriotas."
+      }
+    }
+  },
+  "uniform": {
+    "title": "Casaca de granadero",
+    "meta": "Argentina • 1810 • Ejército Patriota • Granaderos",
+    "descriptionTitle": "Descripción",
+    "descriptionText": "Un uniforme de gran impacto visual que simbolizó la disciplina de las tropas patriotas y su capacidad de operar con precisión en los primeros combates de la independencia.",
+    "galleryTitle": "Galería",
+    "techTitle": "Ficha técnica",
+    "country": "País",
+    "conflict": "Conflicto",
+    "army": "Ejército",
+    "hat": "Sombrero",
+    "colors": "Colores"
+  },
+  "about": {
+    "title": "Acerca del proyecto",
+    "description": "Proyecto América Uniformada — enciclopedia digital de uniformología militar."
+  },
+  "pages": {
+    "uniforms": {
+      "title": "Uniformes",
+      "description": "Explora la evolución de los uniformes que marcaron la identidad de los ejércitos que lucharon por la independencia."
+    },
+    "people": {
+      "title": "Personajes",
+      "description": "Conoce a los líderes, oficiales y figuras clave que dieron forma a las campañas emancipadoras."
+    },
+    "battles": {
+      "title": "Batallas de la independencia americana",
+      "description": "Estas campañas marcaron el derrocamiento del dominio colonial español en América Latina y transformaron el mapa político del continente."
+    },
+    "countries": {
+      "title": "Países",
+      "description": "Una mirada histórica a las naciones que se formaron a partir de las guerras de independencia."
+    },
+    "timeline": {
+      "title": "Cronología",
+      "description": "Recorre los hechos claves que marcaron el proceso de emancipación en el continente."
+    },
+    "library": {
+      "title": "Biblioteca",
+      "description": "Una colección de referencias visuales y textuales para profundizar en la historia militar."
+    },
+    "search": {
+      "title": "Buscador",
+      "description": "Encuentra piezas, personajes y campañas a través de una exploración visual y temática."
+    }
+  },
+  "language": {
+    "label": "Cambiar idioma",
+    "es": "Español",
+    "en": "English"
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import Navbar from '../components/Navbar'
 
 const battles = [
@@ -35,14 +36,14 @@ const battles = [
 ]
 
 export default function Battles() {
+  const { t } = useTranslation()
+
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="pt-24 max-w-5xl mx-auto px-4 pb-16">
-        <h1 className="text-3xl font-serif">Batallas de la independencia americana</h1>
-        <p className="mt-4 text-gray-700 dark:text-gray-200">
-          Estas campañas marcaron el derrocamiento del dominio colonial español en América Latina y transformaron el mapa político del continente.
-        </p>
+      <main className="mx-auto max-w-5xl px-4 pb-16 pt-24">
+        <h1 className="text-3xl font-serif">{t('pages.battles.title')}</h1>
+        <p className="mt-4 text-gray-700 dark:text-gray-200">{t('pages.battles.description')}</p>
 
         <div className="mt-8 grid gap-6">
           {battles.map((battle) => (

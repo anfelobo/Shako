@@ -1,15 +1,16 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import Navbar from '../components/Navbar'
 
 export default function Countries() {
+  const { t } = useTranslation()
+
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="pt-24 max-w-4xl mx-auto px-4 pb-16">
-        <h1 className="text-3xl font-serif">Países</h1>
-        <p className="mt-4 text-gray-700 dark:text-gray-200">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-        </p>
+      <main className="mx-auto max-w-4xl px-4 pb-16 pt-24">
+        <h1 className="text-3xl font-serif">{t('pages.countries.title')}</h1>
+        <p className="mt-4 text-gray-700 dark:text-gray-200">{t('pages.countries.description')}</p>
       </main>
     </div>
   )

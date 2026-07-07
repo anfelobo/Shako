@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "uniforms": "Uniforms",
+    "people": "Characters",
+    "battles": "Battles",
+    "countries": "Countries",
+    "timeline": "Timeline",
+    "library": "Library",
+    "search": "Search"
+  },
+  "home": {
+    "title": "Uniformed America",
+    "subtitle": "Digital Encyclopedia of American Military Uniformology",
+    "button": "Explore collection",
+    "featured": "Featured article",
+    "sectionTitle": "Featured uniforms",
+    "collection": "Collection",
+    "articleTitle": "Uniforms of independence",
+    "articleText": "The independence wars in Latin America were defined by decisive battles such as Ayacucho, Boyacá, Maipú and Chacabuco, where patriotic armies transformed the political geography of the continent.",
+    "featuredUniforms": {
+      "granadero": {
+        "title": "Grenadier coat",
+        "description": "An emblematic piece of the military elite that combined discipline, prestige, and visual impact on the battlefield."
+      },
+      "campaign": {
+        "title": "Campaign uniform",
+        "description": "Designed for mobility and life in the field, with functional fabrics and a more austere silhouette."
+      },
+      "officer": {
+        "title": "Officer attire",
+        "description": "Command dress reflected hierarchy, authority, and the European influences of the patriotic corps."
+      }
+    }
+  },
+  "uniform": {
+    "title": "Grenadier coat",
+    "meta": "Argentina • 1810 • Patriot Army • Grenadiers",
+    "descriptionTitle": "Description",
+    "descriptionText": "A striking uniform that symbolized the discipline of patriotic troops and their ability to operate with precision in the early battles of independence.",
+    "galleryTitle": "Gallery",
+    "techTitle": "Technical sheet",
+    "country": "Country",
+    "conflict": "Conflict",
+    "army": "Army",
+    "hat": "Hat",
+    "colors": "Colors"
+  },
+  "about": {
+    "title": "About the project",
+    "description": "América Uniformada project — a digital encyclopedia of military uniformology."
+  },
+  "pages": {
+    "uniforms": {
+      "title": "Uniforms",
+      "description": "Explore the evolution of uniforms that shaped the identity of the armies that fought for independence."
+    },
+    "people": {
+      "title": "Characters",
+      "description": "Meet the leaders, officers, and key figures that shaped the emancipating campaigns."
+    },
+    "battles": {
+      "title": "Battles of the American independence",
+      "description": "These campaigns marked the overthrow of Spanish colonial rule in Latin America and transformed the continent's political map."
+    },
+    "countries": {
+      "title": "Countries",
+      "description": "A historical look at the nations that emerged from the independence wars."
+    },
+    "timeline": {
+      "title": "Timeline",
+      "description": "Trace the key events that shaped the emancipation process across the continent."
+    },
+    "library": {
+      "title": "Library",
+      "description": "A collection of visual and textual references to deepen your understanding of military history."
+    },
+    "search": {
+      "title": "Search",
+      "description": "Find uniforms, figures, and campaigns through a visual and thematic exploration."
+    }
+  },
+  "language": {
+    "label": "Change language",
+    "es": "Español",
+    "en": "English"
+  }
+}
