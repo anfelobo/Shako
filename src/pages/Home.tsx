@@ -53,10 +53,19 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4">Uniformes destacados</h2>
           <div className="grid gap-6 md:grid-cols-3">
             {featuredUniforms.map((item) => (
-              <article key={item.title} className="overflow-hidden rounded-2xl bg-white/80 shadow-sm dark:bg-white/5">
-                <img src={item.image} alt={item.title} className="h-48 w-full object-cover" />
+              <article
+                key={item.title}
+                className="group relative overflow-hidden rounded-2xl bg-white/80 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl dark:bg-white/5"
+              >
+                <img src={item.image} alt={item.title} className="h-48 w-full object-cover transition duration-300 group-hover:scale-105" />
+                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-[#13294B] via-[#13294B]/70 to-transparent p-4">
+                  <div className="translate-y-4 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                    <h3 className="font-semibold text-white">{item.title}</h3>
+                    <p className="mt-2 text-sm text-gray-200">{item.description}</p>
+                  </div>
+                </div>
                 <div className="p-4">
-                  <h3 className="font-semibold">{item.title}</h3>
+                  <h3 className="font-semibold text-primary dark:text-white">{item.title}</h3>
                   <p className="mt-2 text-sm text-gray-700 dark:text-gray-200">{item.description}</p>
                 </div>
               </article>
