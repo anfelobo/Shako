@@ -45,8 +45,13 @@ export default function Navbar() {
           <Link to="/timeline">{t.timeline}</Link>
           <Link to="/library">{t.library}</Link>
           <Link to="/search">{t.search}</Link>
-          <button onClick={toggleLanguage} className="rounded-full border border-gray-300 px-3 py-1 text-xs uppercase tracking-[0.2em] dark:border-gray-700">
-            {language === 'es' ? 'EN' : 'ES'}
+          <button
+            onClick={toggleLanguage}
+            className="flex items-center gap-2 rounded-full border border-gray-300 px-3 py-1 text-xs uppercase tracking-[0.2em] transition hover:border-gold hover:text-gold dark:border-gray-700"
+            aria-label="Cambiar idioma"
+          >
+            <span>{language === 'es' ? '🇺🇸' : '🇪🇸'}</span>
+            <span>{language === 'es' ? 'EN' : 'ES'}</span>
           </button>
         </nav>
       </div>
