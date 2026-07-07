@@ -57,7 +57,45 @@
     },
     "people": {
       "title": "Characters",
-      "description": "Meet the leaders, officers, and key figures that shaped the emancipating campaigns."
+      "description": "Meet the leaders, officers, and key figures that shaped the emancipating campaigns.",
+      "leaders": [
+        {
+          "name": "Simón Bolívar",
+          "country": "Venezuela",
+          "role": "Liberator of Gran Colombia",
+          "summary": "He was the main architect of emancipation across several South American countries and promoted the idea of a free and united America."
+        },
+        {
+          "name": "José de San Martín",
+          "country": "Argentina",
+          "role": "General and independence strategist",
+          "summary": "He organized the campaigns that liberated the Río de la Plata and Chile, and opened the path to Peru's independence."
+        },
+        {
+          "name": "Bernardo O'Higgins",
+          "country": "Chile",
+          "role": "Supreme Director of Chile",
+          "summary": "He led the Chilean patriotic cause and was decisive in consolidating the country's independence."
+        },
+        {
+          "name": "Antonio José de Sucre",
+          "country": "Bolivia",
+          "role": "Grand Marshal and liberator",
+          "summary": "He stood out for his leadership at the Battle of Ayacucho, a definitive milestone for American independence."
+        },
+        {
+          "name": "José Gervasio Artigas",
+          "country": "Uruguay",
+          "role": "Leader of the Río de la Plata independence",
+          "summary": "He defended the autonomy of the Río de la Plata territory and left a lasting mark on the region's identity."
+        },
+        {
+          "name": "Miguel Hidalgo",
+          "country": "Mexico",
+          "role": "Priest and precursor of independence",
+          "summary": "He initiated the insurgent movement that marked the beginning of Mexico's independence process."
+        }
+      ]
     },
     "battles": {
       "title": "Battles of the American independence",

@@ -57,7 +57,45 @@
     },
     "people": {
       "title": "Personajes",
-      "description": "Conoce a los líderes, oficiales y figuras clave que dieron forma a las campañas emancipadoras."
+      "description": "Conoce a los líderes, oficiales y figuras clave que dieron forma a las campañas emancipadoras.",
+      "leaders": [
+        {
+          "name": "Simón Bolívar",
+          "country": "Venezuela",
+          "role": "Libertador de la Gran Colombia",
+          "summary": "Fue el principal artífice de la emancipación de varios países sudamericanos y consolidó la idea de una América libre y unida."
+        },
+        {
+          "name": "José de San Martín",
+          "country": "Argentina",
+          "role": "General y estratega independentista",
+          "summary": "Organizó las campañas que liberaron el Río de la Plata y Chile, y abrió el camino a la independencia del Perú."
+        },
+        {
+          "name": "Bernardo O'Higgins",
+          "country": "Chile",
+          "role": "Director supremo de Chile",
+          "summary": "Dirigió la causa patriota chilena y fue decisivo en la consolidación de la independencia del país."
+        },
+        {
+          "name": "Antonio José de Sucre",
+          "country": "Bolivia",
+          "role": "Gran mariscal y libertador",
+          "summary": "Se destacó por su liderazgo en la batalla de Ayacucho, un hito definitivo para la independencia americana."
+        },
+        {
+          "name": "José Gervasio Artigas",
+          "country": "Uruguay",
+          "role": "Caudillo de la independencia rioplatense",
+          "summary": "Defendió la autonomía del territorio del Río de la Plata y dejó una huella profunda en la identidad regional."
+        },
+        {
+          "name": "Miguel Hidalgo",
+          "country": "México",
+          "role": "Sacerdote y precursor de la independencia",
+          "summary": "Inició el movimiento insurgente que marcó el comienzo del proceso independentista mexicano."
+        }
+      ]
     },
     "battles": {
       "title": "Batallas de la independencia americana",
