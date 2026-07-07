@@ -2,6 +2,49 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
+function FlagIcon({ language }: { language: 'es' | 'en' }) {
+  if (language === 'es') {
+    return (
+      <svg viewBox="0 0 512 512" className="h-5 w-7 rounded-sm shadow-sm" aria-hidden="true">
+        <rect width="512" height="512" rx="24" fill="#C60B1E" />
+        <rect x="0" y="0" width="512" height="171" fill="#FFC400" />
+        <rect x="0" y="341" width="512" height="171" fill="#FFC400" />
+        <rect x="0" y="171" width="512" height="170" fill="#C60B1E" />
+        <path d="M256 128c-31 0-56 25-56 56 0 20 10 38 26 48-10 9-16 22-16 36 0 31 25 56 56 56s56-25 56-56c0-14-6-27-16-36 16-10 26-28 26-48 0-31-25-56-56-56Z" fill="#FFC400" />
+      </svg>
+    )
+  }
+
+  return (
+    <svg viewBox="0 0 512 512" className="h-5 w-7 rounded-sm shadow-sm" aria-hidden="true">
+      <rect width="512" height="512" rx="24" fill="#B22234" />
+      <rect x="0" y="0" width="512" height="42.7" fill="#fff" />
+      <rect x="0" y="85.3" width="512" height="42.7" fill="#fff" />
+      <rect x="0" y="170.7" width="512" height="42.7" fill="#fff" />
+      <rect x="0" y="256" width="512" height="42.7" fill="#fff" />
+      <rect x="0" y="341.3" width="512" height="42.7" fill="#fff" />
+      <rect x="0" y="426.7" width="512" height="42.7" fill="#fff" />
+      <rect width="256" height="256" fill="#3C3B6E" />
+      <path d="M24 24h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H24l8-8-8-8Z" fill="#fff" />
+      <path d="M88 24h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H88l8-8-8-8Z" fill="#fff" />
+      <path d="M152 24h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M216 24h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M24 88h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H24l8-8-8-8Z" fill="#fff" />
+      <path d="M88 88h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H88l8-8-8-8Z" fill="#fff" />
+      <path d="M152 88h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M216 88h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M24 152h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H24l8-8-8-8Z" fill="#fff" />
+      <path d="M88 152h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H88l8-8-8-8Z" fill="#fff" />
+      <path d="M152 152h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M216 152h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M24 216h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H24l8-8-8-8Z" fill="#fff" />
+      <path d="M88 216h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8H88l8-8-8-8Z" fill="#fff" />
+      <path d="M152 216h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+      <path d="M216 216h16l8 8 8-8h16l-8 8 8 8h-16l-8-8-8 8h-16l8-8-8-8Z" fill="#fff" />
+    </svg>
+  )
+}
+
 const labels = {
   es: {
     home: 'Inicio',
