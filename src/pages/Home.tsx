@@ -30,15 +30,15 @@ export default function Home() {
             <p className="mt-4 text-lg">Enciclopedia Digital de Uniformología Militar Americana</p>
             <button className="mt-6 px-5 py-3 bg-gold text-white rounded-md">Explorar colección</button>
           </div>
-          <div className="overflow-hidden rounded-2xl shadow-lg">
-            <img src="/images/uniformes/1.jpeg" alt="Uniforme histórico" className="h-80 w-full object-cover" />
+          <div className="overflow-hidden rounded-2xl bg-gray-100 shadow-lg dark:bg-gray-800">
+            <img src="/images/uniformes/1.jpeg" alt="Uniforme histórico" className="h-80 w-full object-contain p-2" />
           </div>
         </section>
 
         <section className="mt-12">
           <h2 className="text-2xl font-semibold mb-4">Artículo destacado</h2>
           <div className="grid gap-6 md:grid-cols-[1.3fr_0.7fr] rounded-2xl bg-white/70 p-6 shadow-sm dark:bg-white/5">
-            <img src="/images/uniformes/2.jpeg" alt="Artículo destacado" className="h-60 w-full rounded-xl object-cover" />
+            <img src="/images/uniformes/2.jpeg" alt="Artículo destacado" className="h-60 w-full rounded-xl object-contain bg-gray-100 p-2 dark:bg-gray-800" />
             <div>
               <p className="text-sm uppercase tracking-[0.2em] text-gold">Colección</p>
               <h3 className="mt-2 text-2xl font-serif">Uniformes de la independencia</h3>
@@ -57,7 +57,7 @@ export default function Home() {
                 key={item.title}
                 className="group relative overflow-hidden rounded-2xl bg-white/80 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl dark:bg-white/5"
               >
-                <img src={item.image} alt={item.title} className="h-48 w-full object-cover transition duration-300 group-hover:scale-105" />
+                <img src={item.image} alt={item.title} className="h-48 w-full object-contain bg-gray-100 p-2 transition duration-300 group-hover:scale-105 dark:bg-gray-800" />
                 <div className="absolute inset-0 flex items-end bg-gradient-to-t from-[#13294B] via-[#13294B]/70 to-transparent p-4">
                   <div className="translate-y-4 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                     <h3 className="font-semibold text-white">{item.title}</h3>
