@@ -6,11 +6,11 @@ function FlagIcon({ language }: { language: 'es' | 'en' }) {
   if (language === 'es') {
     return (
       <svg viewBox="0 0 512 512" className="h-5 w-7 rounded-sm shadow-sm" aria-hidden="true">
-        <rect width="512" height="512" rx="24" fill="#C60B1E" />
-        <rect x="0" y="0" width="512" height="171" fill="#FFC400" />
-        <rect x="0" y="341" width="512" height="171" fill="#FFC400" />
-        <rect x="0" y="171" width="512" height="170" fill="#C60B1E" />
-        <path d="M256 128c-31 0-56 25-56 56 0 20 10 38 26 48-10 9-16 22-16 36 0 31 25 56 56 56s56-25 56-56c0-14-6-27-16-36 16-10 26-28 26-48 0-31-25-56-56-56Z" fill="#FFC400" />
+        <rect width="512" height="512" rx="24" fill="#FCD116" />
+        <rect y="256" width="512" height="256" fill="#003893" />
+        <rect y="0" width="512" height="256" fill="#CE1126" />
+        <path d="M256 296c-22 0-40-18-40-40s18-40 40-40 40 18 40 40-18 40-40 40Z" fill="#FCD116" />
+        <path d="M256 234c8 0 14 6 14 14 0 8-6 14-14 14s-14-6-14-14c0-8 6-14 14-14Z" fill="#003893" />
       </svg>
     )
   }
